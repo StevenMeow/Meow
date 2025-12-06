@@ -162,12 +162,7 @@ footer h1 {
     padding: 20px 10px 50px 10px;
     height: 150%;
   }
-  .hero {
-    width: 95%;
+  .hero-content {
+    width: 125%;
   }
-}
-.textbox:focus {
-  outline: none;
-  border-color: rgba(255, 255, 255, 0.36);
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.02);
 }
