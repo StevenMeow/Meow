@@ -62,7 +62,7 @@ section {
 }
 .container {
   padding: 20px 30px 50px 40px;
-  height: 200%;
+  height: 150vh;
 }
 .hero {
   display: none;
