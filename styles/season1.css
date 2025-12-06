@@ -36,10 +36,14 @@ nav li {
   display: inline;
   margin-right: 15px;
 }
+nav li a:hover {
+  color: #ff0000;
+}
 nav li a {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 15px;
+  transition: ease-in-out 0.2s;
 }
 .dropdown {
   display: none;

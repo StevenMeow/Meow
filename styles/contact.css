@@ -52,6 +52,15 @@ nav li a {
   padding: 0px;
   cursor: pointer;
 }
+nav li a:hover {
+  color: #ff0000;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: ease-in-out 0.2s;
+}
 
 /* body */
 section {
