@@ -183,7 +183,7 @@ footer h1 {
   }
   section > .container {
     padding: 20px 10px 100px 10px;
-    height: 120px;
+    height: 150vh;
   }
   .button > button {
     width: 100px;
