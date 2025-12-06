@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: border-box;
+  box-sizing: border-box;
 }
 body {
   background-size: cover;
@@ -62,7 +62,7 @@ section {
 }
 .container {
   padding: 20px 30px 50px 40px;
-  height: 200%;
+  height: 200vh;
 }
 .hero {
   display: block;
@@ -80,13 +80,13 @@ section {
 }
 /* Contact form styling */
 .contact-form {
-  max-width: 500px;
+  width: 100%;
   background: rgba(255, 255, 255, 0.06); /* subtle panel on dark background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
-  margin-bottom: 40px;
+  margin-right: 900px;
 }
 .contact-form label {
   display: block;
@@ -181,10 +181,13 @@ footer h1 {
   }
   section > .container {
     padding: 20px 10px 50px 10px;
-    height: 150%;
+    height: 150vh;
   }
   .hero {
     width: 95%;
+  }
+  .contact-form {
+    margin-right: 0px;
   }
 }
 .textbox:focus {
