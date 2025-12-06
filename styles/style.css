@@ -170,6 +170,7 @@ footer h1 {
     font-size: 1.8rem;
   }
   .hero {
+    margin: 0px;
     margin-top: 30px;
     width: 70%;
     display: none;
@@ -181,9 +182,8 @@ footer h1 {
     display: none;
   }
   section > .container {
-    padding: 20px 10px 50px 10px;
+    padding: 20px 10px 100px 10px;
     height: 120px;
-    margin-bottom: 40px;
   }
   .button > button {
     width: 100px;
