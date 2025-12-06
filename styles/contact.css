@@ -161,7 +161,7 @@ footer h1 {
     display: block;
     border: 2px solid #ffffff;
     padding: 12px;
-    height: 40px;
+    height: 60px;
     transition: ease-in-out 0.2s;
   }
   nav li:hover {
