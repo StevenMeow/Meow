@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Tower of God</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <meta name="author" content="Steven Joseph Lasona" />
+    <meta
+      name="description"
+      content="Contact: Wiki of Tower of God, an manhwa created by SIU"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, layout, contact, Tower of God, Manhwa, Wiki"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>Tower of God</h2>
+      </div>
+      <div class="nav">
+        <button id="xeper" class="dropdown xeper">X</button>
+        <button id="dropdown" class="dropdown">☰</button>
+        <nav id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="season.html">Season</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="hero">
+          <h1>Tower of God</h1>
+          <p>If you want to Contact Us for more details:</p>
+        </div>
+        <div class="hero">
+          <h1>Contact Us</h1>
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="#"
+            method="post"
+            novalidate
+          >
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              class="textbox"
+              type="text"
+              placeholder="Input your name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              class="textbox"
+              type="email"
+              placeholder="Input your email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="textbox"
+              placeholder="Input your message"
+              rows="6"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="contact-success" class="success" hidden>
+              Thank you — your message has been sent!
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p></p>
+      <p></p>
+      <h1>All Rights Reserved 2025</h1>
+    </footer>
+
+    <script src="js/hompage.js"></script>
+    <script>
+      const contactForm = document.getElementById("contact-form");
+      const success = document.getElementById("contact-success");
+      contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        success.hidden = false;
+        setTimeout(() => {
+          success.hidden = true;
+        }, 4000);
+        contactForm.reset();
+      });
+    </script>
+  </body>
+</html>
