@@ -189,4 +189,8 @@ footer h1 {
   .hero-content {
     width: 100%;
   }
+  .content {
+    width: 100%;
+    padding: 20px 10px;
+  }
 }
