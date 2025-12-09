@@ -204,3 +204,61 @@ footer h1 {
   border-color: rgba(255, 255, 255, 0.36);
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.02);
 }
+/* Thank you page styles */
+.thanks-message {
+  color: #f2f2f2;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+.thanks-content {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+}
+.thanks-content h2 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.thanks-content ul {
+  list-style: none;
+  padding: 0;
+}
+.thanks-content li {
+  color: #f2f2f2;
+  padding: 8px 0;
+  padding-left: 24px;
+  position: relative;
+}
+.thanks-content li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #b6f6c0;
+  font-weight: bold;
+}
+.thanks-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.thanks-actions a {
+  text-decoration: none;
+}
+@media (max-width: 790px) {
+  .thanks-message {
+    font-size: 1rem;
+  }
+  .thanks-content {
+    padding: 16px;
+  }
+  .thanks-actions {
+    flex-direction: column;
+  }
+  .thanks-actions .btn {
+    width: 100%;
+  }
+}
